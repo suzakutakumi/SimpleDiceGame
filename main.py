@@ -9,4 +9,4 @@ print(("""Rolling the dice...
 Die 1: %d
 Die 2: %d
 Total value: %d
-You %s!""")%(x,y,x+y,"won" if x+y>7 else "lost"))
+%s %s!""")%(x,y,x+y,name,"won" if x+y>7 else "lost"))
